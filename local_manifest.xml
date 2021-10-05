@@ -8,12 +8,12 @@
         fetch="https://github.com" />
 
 <!-- Device Trees -->
- <project name="MhmmdAmier/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="MhmmdAmier" revision="11" />
- <project name="MhmmdAmier/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="MhmmdAmier" revision="11" />
+ <project name="ZilverQueen/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="11" />
+ <project name="ZilverQueen/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="github" revision="11" />
 
 <!-- Vendor Trees -->
- <project name="MhmmdAmier/vendor_xiaomi_ugg" path="vendor/xiaomi/ugg" remote="MhmmdAmier" revision="11" />
- <project name="MhmmdAmier/vendor_xiaomi_ulysse-common" path="vendor/xiaomi/ulysse-common" remote="MhmmdAmier" revision="11" />
+ <project name="ZilverQueen/vendor_xiaomi_ugg" path="vendor/xiaomi/ugg" remote="github" revision="11" />
+ <project name="ZilverQueen/vendor_xiaomi_ulysse-common" path="vendor/xiaomi/ulysse-common" remote="github" revision="11" />
   
 <!-- Kernels -->
  <project name="MhmmdAmier/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="MhmmdAmier" revision="11" />

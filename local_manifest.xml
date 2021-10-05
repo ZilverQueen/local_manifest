@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="Gabuters-Dev"
+        fetch="https://github.com" />
+
+<remote name="MhmmdAmier"
+        fetch="https://github.com" />
+
+<!-- Device Trees -->
+ <project name="MhmmdAmier/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="MhmmdAmier" revision="11" />
+ <project name="MhmmdAmier/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="MhmmdAmier" revision="11" />
+
+<!-- Vendor Trees -->
+ <project name="MhmmdAmier/vendor_xiaomi_ugg" path="vendor/xiaomi/ugg" remote="MhmmdAmier" revision="11" />
+ <project name="MhmmdAmier/vendor_xiaomi_ulysse-common" path="vendor/xiaomi/ulysse-common" remote="MhmmdAmier" revision="11" />
+  
+<!-- Kernels -->
+ <project name="MhmmdAmier/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="MhmmdAmier" revision="11" />
+
+<!-- More Stuff -->
+ <project name="Gabuters-Dev/Gabuters-clang" path="prebuilts/clang/host/linux-x86/gabuters-clang" remote="Gabuters-Dev" revision="master" />
+ <project name="Gabuters-Dev/vendor_xiaomi_dirac" path="vendor/xiaomi/part" remote="Gabuters-Dev" revision="part" />
+</manifest> 

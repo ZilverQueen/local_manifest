@@ -2,18 +2,21 @@
 <manifest>
 
 <!-- Device Trees -->
- <project name="ZilverQueen/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="11" />
- <project name="ZilverQueen/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="github" revision="11" />
+ <project name="ZilverQueen/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="12" />
+ <project name="ZilverQueen/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="github" revision="12" >
+      <linkfile src="vendorsetup.sh" dest="device/xiaomi/ulysse-common/temp" />
+ </project>
 
 <!-- Vendor Trees -->
- <project name="NusantaraROM-Devices/vendor_xiaomi_ugg" path="vendor/xiaomi/ugg" remote="github" revision="11" />
- <project name="NusantaraROM-Devices/vendor_xiaomi_ulysse-common" path="vendor/xiaomi/ulysse-common" remote="github" revision="11" />
+ <project name="ZilverQueen/vendor_xiaomi_ugg" path="vendor/xiaomi/ugg" remote="github" revision="12" />
+ <project name="ZilverQueen/vendor_xiaomi_ulysse-common" path="vendor/xiaomi/ulysse-common" remote="github" revision="12" />
   
 <!-- Kernels -->
- <project name="MhmmdAmier/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="11" />
+ <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="a12/temp" />
 
 <!-- More Stuff -->
- <project name="Gabuters-Dev/vendor_xiaomi_dirac" path="vendor/xiaomi/part" remote="github" revision="part" />
+ <project name="Gabuters-Dev/vendor_xiaomi_dirac" path="vendor/xiaomi/part" remote="github" revision="12" />
+ <project name="Gabuters-Dev/gabuters-clang" path="prebuilts/clang/host/linux-x86/gabuters-clang" remote="github" revision="master" />
         
 </manifest> 
 
